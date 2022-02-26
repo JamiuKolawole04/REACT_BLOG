@@ -1,14 +1,15 @@
-import Header from "./Header";
-import Nav from "./Nav";
-import Footer from "./Footer";
-import Home from "./Home";
-import Newpost from "./Newpost";
-import Editposts from "./Editposts";
-import Postpage from "./Postpage";
-import About from "./About";
-import Missing from "./Missing";
 import { Route, useNavigate, Routes } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+
+import Header from "../components/Header";
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
+import Home from "../pages/Home";
+import Newpost from "../components/Newpost";
+import Editposts from "../components/Editposts";
+import Postpage from "../components/Postpage";
+import About from "../pages/About";
+import Missing from "../components/Missing";
 import { format } from 'date-fns'
 import api from '../api/posts'
 import useWindowSize from "../hooks/Usewindowsize";
