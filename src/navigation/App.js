@@ -4,11 +4,11 @@ import { useState, useEffect } from 'react';
 import Header from "../components/Header";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import Home from "../components/Home";
+import Home from "../pages/Home";
 import Newpost from "../components/Newpost";
 import Editposts from "../components/Editposts";
 import Postpage from "../components/Postpage";
-import About from "../components/About";
+import About from "../pages/About";
 import Missing from "../components/Missing";
 import { format } from 'date-fns'
 import api from '../api/posts'
